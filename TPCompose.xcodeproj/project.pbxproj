@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9D37DB218D1926D0015D8B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D37DB118D1926D0015D8B5 /* Foundation.framework */; };
+		B9D37DB418D1926D0015D8B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D37DB318D1926D0015D8B5 /* CoreGraphics.framework */; };
+		B9D37DB618D1926D0015D8B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D37DB518D1926D0015D8B5 /* UIKit.framework */; };
+		B9D37DBC18D1926D0015D8B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9D37DBA18D1926D0015D8B5 /* InfoPlist.strings */; };
+		B9D37DBE18D1926E0015D8B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D37DBD18D1926E0015D8B5 /* main.m */; };
+		B9D37DC218D1926E0015D8B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D37DC118D1926E0015D8B5 /* AppDelegate.m */; };
+		B9D37DC518D1926E0015D8B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D37DC318D1926E0015D8B5 /* Main.storyboard */; };
+		B9D37DC818D1926E0015D8B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D37DC718D1926E0015D8B5 /* ViewController.m */; };
+		B9D37DCA18D1926E0015D8B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D37DC918D1926E0015D8B5 /* Images.xcassets */; };
+		B9D37DD118D1926E0015D8B5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D37DD018D1926E0015D8B5 /* XCTest.framework */; };
+		B9D37DD218D1926E0015D8B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D37DB118D1926D0015D8B5 /* Foundation.framework */; };
+		B9D37DD318D1926E0015D8B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D37DB518D1926D0015D8B5 /* UIKit.framework */; };
+		B9D37DDB18D1926E0015D8B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9D37DD918D1926E0015D8B5 /* InfoPlist.strings */; };
+		B9D37DDD18D1926E0015D8B5 /* TPComposeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D37DDC18D1926E0015D8B5 /* TPComposeTests.m */; };
+		B9D37DE818D192A10015D8B5 /* TPComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D37DE718D192A10015D8B5 /* TPComposeViewController.m */; };
+		B9D37DEE18D195720015D8B5 /* btn_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D37DED18D195720015D8B5 /* btn_close@2x.png */; };
+		B9D37DF018D195760015D8B5 /* btn_close.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D37DEF18D195760015D8B5 /* btn_close.png */; };
+		B9D37DF218D1986C0015D8B5 /* Lexus-LF-A-showroom5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9D37DF118D1986C0015D8B5 /* Lexus-LF-A-showroom5.jpg */; };
+		B9D37DF418D1A1940015D8B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D37DF318D1A1940015D8B5 /* QuartzCore.framework */; };
+		B9D37DF618D1C16D0015D8B5 /* TPComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9D37DF518D1C16D0015D8B5 /* TPComposeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9D37DD418D1926E0015D8B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9D37DA618D1926C0015D8B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9D37DAD18D1926D0015D8B5;
+			remoteInfo = TPCompose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9D37DAE18D1926D0015D8B5 /* TPCompose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPCompose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D37DB118D1926D0015D8B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9D37DB318D1926D0015D8B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9D37DB518D1926D0015D8B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9D37DB918D1926D0015D8B5 /* TPCompose-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TPCompose-Info.plist"; sourceTree = "<group>"; };
+		B9D37DBB18D1926D0015D8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9D37DBD18D1926E0015D8B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9D37DBF18D1926E0015D8B5 /* TPCompose-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TPCompose-Prefix.pch"; sourceTree = "<group>"; };
+		B9D37DC018D1926E0015D8B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9D37DC118D1926E0015D8B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9D37DC418D1926E0015D8B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9D37DC618D1926E0015D8B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9D37DC718D1926E0015D8B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9D37DC918D1926E0015D8B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B9D37DCF18D1926E0015D8B5 /* TPComposeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPComposeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D37DD018D1926E0015D8B5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B9D37DD818D1926E0015D8B5 /* TPComposeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TPComposeTests-Info.plist"; sourceTree = "<group>"; };
+		B9D37DDA18D1926E0015D8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9D37DDC18D1926E0015D8B5 /* TPComposeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPComposeTests.m; sourceTree = "<group>"; };
+		B9D37DE618D192A10015D8B5 /* TPComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPComposeViewController.h; sourceTree = "<group>"; };
+		B9D37DE718D192A10015D8B5 /* TPComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPComposeViewController.m; sourceTree = "<group>"; };
+		B9D37DED18D195720015D8B5 /* btn_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close@2x.png"; sourceTree = "<group>"; };
+		B9D37DEF18D195760015D8B5 /* btn_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close.png; sourceTree = "<group>"; };
+		B9D37DF118D1986C0015D8B5 /* Lexus-LF-A-showroom5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lexus-LF-A-showroom5.jpg"; sourceTree = "<group>"; };
+		B9D37DF318D1A1940015D8B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B9D37DF518D1C16D0015D8B5 /* TPComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPComposeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9D37DAB18D1926D0015D8B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D37DF418D1A1940015D8B5 /* QuartzCore.framework in Frameworks */,
+				B9D37DB418D1926D0015D8B5 /* CoreGraphics.framework in Frameworks */,
+				B9D37DB618D1926D0015D8B5 /* UIKit.framework in Frameworks */,
+				B9D37DB218D1926D0015D8B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D37DCC18D1926E0015D8B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D37DD118D1926E0015D8B5 /* XCTest.framework in Frameworks */,
+				B9D37DD318D1926E0015D8B5 /* UIKit.framework in Frameworks */,
+				B9D37DD218D1926E0015D8B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9D37DA518D1926C0015D8B5 = {
+			isa = PBXGroup;
+			children = (
+				B9D37DB718D1926D0015D8B5 /* TPCompose */,
+				B9D37DD618D1926E0015D8B5 /* TPComposeTests */,
+				B9D37DB018D1926D0015D8B5 /* Frameworks */,
+				B9D37DAF18D1926D0015D8B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9D37DAF18D1926D0015D8B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9D37DAE18D1926D0015D8B5 /* TPCompose.app */,
+				B9D37DCF18D1926E0015D8B5 /* TPComposeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9D37DB018D1926D0015D8B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9D37DF318D1A1940015D8B5 /* QuartzCore.framework */,
+				B9D37DB118D1926D0015D8B5 /* Foundation.framework */,
+				B9D37DB318D1926D0015D8B5 /* CoreGraphics.framework */,
+				B9D37DB518D1926D0015D8B5 /* UIKit.framework */,
+				B9D37DD018D1926E0015D8B5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9D37DB718D1926D0015D8B5 /* TPCompose */ = {
+			isa = PBXGroup;
+			children = (
+				B9D37DF118D1986C0015D8B5 /* Lexus-LF-A-showroom5.jpg */,
+				B9D37DEF18D195760015D8B5 /* btn_close.png */,
+				B9D37DED18D195720015D8B5 /* btn_close@2x.png */,
+				B9D37DC018D1926E0015D8B5 /* AppDelegate.h */,
+				B9D37DC118D1926E0015D8B5 /* AppDelegate.m */,
+				B9D37DC318D1926E0015D8B5 /* Main.storyboard */,
+				B9D37DC618D1926E0015D8B5 /* ViewController.h */,
+				B9D37DC718D1926E0015D8B5 /* ViewController.m */,
+				B9D37DF518D1C16D0015D8B5 /* TPComposeViewController.xib */,
+				B9D37DE618D192A10015D8B5 /* TPComposeViewController.h */,
+				B9D37DE718D192A10015D8B5 /* TPComposeViewController.m */,
+				B9D37DC918D1926E0015D8B5 /* Images.xcassets */,
+				B9D37DB818D1926D0015D8B5 /* Supporting Files */,
+			);
+			path = TPCompose;
+			sourceTree = "<group>";
+		};
+		B9D37DB818D1926D0015D8B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9D37DB918D1926D0015D8B5 /* TPCompose-Info.plist */,
+				B9D37DBA18D1926D0015D8B5 /* InfoPlist.strings */,
+				B9D37DBD18D1926E0015D8B5 /* main.m */,
+				B9D37DBF18D1926E0015D8B5 /* TPCompose-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9D37DD618D1926E0015D8B5 /* TPComposeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9D37DDC18D1926E0015D8B5 /* TPComposeTests.m */,
+				B9D37DD718D1926E0015D8B5 /* Supporting Files */,
+			);
+			path = TPComposeTests;
+			sourceTree = "<group>";
+		};
+		B9D37DD718D1926E0015D8B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9D37DD818D1926E0015D8B5 /* TPComposeTests-Info.plist */,
+				B9D37DD918D1926E0015D8B5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9D37DAD18D1926D0015D8B5 /* TPCompose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D37DE018D1926E0015D8B5 /* Build configuration list for PBXNativeTarget "TPCompose" */;
+			buildPhases = (
+				B9D37DAA18D1926D0015D8B5 /* Sources */,
+				B9D37DAB18D1926D0015D8B5 /* Frameworks */,
+				B9D37DAC18D1926D0015D8B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPCompose;
+			productName = TPCompose;
+			productReference = B9D37DAE18D1926D0015D8B5 /* TPCompose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9D37DCE18D1926E0015D8B5 /* TPComposeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D37DE318D1926E0015D8B5 /* Build configuration list for PBXNativeTarget "TPComposeTests" */;
+			buildPhases = (
+				B9D37DCB18D1926E0015D8B5 /* Sources */,
+				B9D37DCC18D1926E0015D8B5 /* Frameworks */,
+				B9D37DCD18D1926E0015D8B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9D37DD518D1926E0015D8B5 /* PBXTargetDependency */,
+			);
+			name = TPComposeTests;
+			productName = TPComposeTests;
+			productReference = B9D37DCF18D1926E0015D8B5 /* TPComposeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9D37DA618D1926C0015D8B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tanawat Polswuan";
+				TargetAttributes = {
+					B9D37DCE18D1926E0015D8B5 = {
+						TestTargetID = B9D37DAD18D1926D0015D8B5;
+					};
+				};
+			};
+			buildConfigurationList = B9D37DA918D1926C0015D8B5 /* Build configuration list for PBXProject "TPCompose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9D37DA518D1926C0015D8B5;
+			productRefGroup = B9D37DAF18D1926D0015D8B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9D37DAD18D1926D0015D8B5 /* TPCompose */,
+				B9D37DCE18D1926E0015D8B5 /* TPComposeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9D37DAC18D1926D0015D8B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D37DCA18D1926E0015D8B5 /* Images.xcassets in Resources */,
+				B9D37DBC18D1926D0015D8B5 /* InfoPlist.strings in Resources */,
+				B9D37DF218D1986C0015D8B5 /* Lexus-LF-A-showroom5.jpg in Resources */,
+				B9D37DEE18D195720015D8B5 /* btn_close@2x.png in Resources */,
+				B9D37DF618D1C16D0015D8B5 /* TPComposeViewController.xib in Resources */,
+				B9D37DF018D195760015D8B5 /* btn_close.png in Resources */,
+				B9D37DC518D1926E0015D8B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D37DCD18D1926E0015D8B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D37DDB18D1926E0015D8B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9D37DAA18D1926D0015D8B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D37DC818D1926E0015D8B5 /* ViewController.m in Sources */,
+				B9D37DE818D192A10015D8B5 /* TPComposeViewController.m in Sources */,
+				B9D37DC218D1926E0015D8B5 /* AppDelegate.m in Sources */,
+				B9D37DBE18D1926E0015D8B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D37DCB18D1926E0015D8B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D37DDD18D1926E0015D8B5 /* TPComposeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9D37DD518D1926E0015D8B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9D37DAD18D1926D0015D8B5 /* TPCompose */;
+			targetProxy = B9D37DD418D1926E0015D8B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9D37DBA18D1926D0015D8B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9D37DBB18D1926D0015D8B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9D37DC318D1926E0015D8B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9D37DC418D1926E0015D8B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9D37DD918D1926E0015D8B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9D37DDA18D1926E0015D8B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9D37DDE18D1926E0015D8B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9D37DDF18D1926E0015D8B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9D37DE118D1926E0015D8B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPCompose/TPCompose-Prefix.pch";
+				INFOPLIST_FILE = "TPCompose/TPCompose-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9D37DE218D1926E0015D8B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPCompose/TPCompose-Prefix.pch";
+				INFOPLIST_FILE = "TPCompose/TPCompose-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B9D37DE418D1926E0015D8B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TPCompose.app/TPCompose";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPCompose/TPCompose-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TPComposeTests/TPComposeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B9D37DE518D1926E0015D8B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TPCompose.app/TPCompose";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TPCompose/TPCompose-Prefix.pch";
+				INFOPLIST_FILE = "TPComposeTests/TPComposeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9D37DA918D1926C0015D8B5 /* Build configuration list for PBXProject "TPCompose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D37DDE18D1926E0015D8B5 /* Debug */,
+				B9D37DDF18D1926E0015D8B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9D37DE018D1926E0015D8B5 /* Build configuration list for PBXNativeTarget "TPCompose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D37DE118D1926E0015D8B5 /* Debug */,
+				B9D37DE218D1926E0015D8B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9D37DE318D1926E0015D8B5 /* Build configuration list for PBXNativeTarget "TPComposeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D37DE418D1926E0015D8B5 /* Debug */,
+				B9D37DE518D1926E0015D8B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9D37DA618D1926C0015D8B5 /* Project object */;
+}
